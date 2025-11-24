@@ -1,0 +1,7 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#dbeafe"/>
+  <circle cx="200" cy="120" r="40" fill="#3b82f6"/>
+  <rect x="160" y="180" width="80" height="8" rx="4" fill="#2563eb"/>
+  <rect x="140" y="200" width="120" height="6" rx="3" fill="#3b82f6"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e40af">Image 3</text>
+</svg>
