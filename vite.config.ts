@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/gradcoach-clone/',
+  base: mode === 'production' ? '/gradcoach-clone/' : '/',
   server: {
     host: "::",
     port: 8080,
