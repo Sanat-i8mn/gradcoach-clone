@@ -8,7 +8,7 @@ const GetUnstuckSection = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 text-foreground">
-          Ready to <span className="text-primary">get unstuck?</span>
+          Ready to <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">get unstuck?</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12">
           Go from confused to confident in three simple steps.
@@ -17,7 +17,7 @@ const GetUnstuckSection = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
           <Card className="text-center">
             <CardContent className="p-8">
-              <MessageCircle className="w-16 h-16 text-primary mx-auto mb-4" />
+              <MessageCircle className="w-16 h-16 text-purple-500 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Step 1: Initial Chat</h3>
               <p className="text-muted-foreground">
                 Schedule a free, no-obligation consultation for us to understand your unique situation and needs.
@@ -27,7 +27,7 @@ const GetUnstuckSection = () => {
           
           <Card className="text-center">
             <CardContent className="p-8">
-              <Gauge className="w-16 h-16 text-primary mx-auto mb-4" />
+              <Gauge className="w-16 h-16 text-blue-500 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Step 2: Accelerate</h3>
               <p className="text-muted-foreground">
                 Your dedicated Dissertation Coach will work with you in fast-track every step of the process.
@@ -37,7 +37,7 @@ const GetUnstuckSection = () => {
           
           <Card className="text-center">
             <CardContent className="p-8">
-              <Calendar className="w-16 h-16 text-primary mx-auto mb-4" />
+              <Calendar className="w-16 h-16 text-teal-500 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Step 3: Submit</h3>
               <p className="text-muted-foreground">
                 Submit your Grad Coach-approved work with confidence, protected by our Pass or Pay Guarantee.
@@ -47,7 +47,7 @@ const GetUnstuckSection = () => {
         </div>
         
         <div className="text-center mb-12">
-          <Button className="bg-primary hover:bg-brand-orange-hover text-primary-foreground font-bold py-6 px-12 text-lg">
+          <Button className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 hover:from-purple-600 hover:via-blue-600 hover:to-teal-600 text-white font-bold py-6 px-12 text-lg">
             BOOK MY FREE CONSULTATION
           </Button>
         </div>

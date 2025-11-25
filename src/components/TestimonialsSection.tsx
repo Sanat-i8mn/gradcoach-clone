@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
     <section className="py-16 bg-muted">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 text-foreground">
-          Loved by <span className="text-primary">millions.</span>
+          Loved by <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">millions.</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12">
           Here's what our private coaching clients had to say, in their words (we haven't even heard)...
@@ -56,7 +56,7 @@ const TestimonialsSection = () => {
         
         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className={testimonial.video ? "bg-primary text-primary-foreground" : "bg-background"}>
+            <Card key={index} className={testimonial.video ? "bg-gradient-to-r from-purple-500 to-blue-500 text-white" : "bg-background"}>
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   {testimonial.video && (

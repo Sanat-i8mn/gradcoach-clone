@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="mb-6">
               <span className="text-2xl font-bold">
-                GRAD<span className="text-primary">COACH</span>
+                GRAD<span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">COACH</span>
               </span>
             </div>
             <div className="mt-4">
@@ -21,10 +21,10 @@ const Footer = () => {
               <span className="text-pink-500 mr-2">🚀</span> SERVICES
             </h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-primary hover:underline">Private Coaching</a></li>
-              <li><a href="#" className="text-primary hover:underline">Language Editing</a></li>
-              <li><a href="#" className="text-primary hover:underline">Transcription</a></li>
-              <li><a href="#" className="text-primary hover:underline">Qualitative Coding</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent hover:underline">Private Coaching</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent hover:underline">Language Editing</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent hover:underline">Transcription</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent hover:underline">Qualitative Coding</a></li>
             </ul>
           </div>
           
@@ -33,10 +33,10 @@ const Footer = () => {
               <span className="text-yellow-500 mr-2">✨</span> RESOURCES
             </h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-primary hover:underline">Blueprints</a></li>
-              <li><a href="#" className="text-primary hover:underline">Templates</a></li>
-              <li><a href="#" className="text-primary hover:underline">Workshops</a></li>
-              <li><a href="#" className="text-primary hover:underline">Blog</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-transparent hover:underline">Blueprints</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-transparent hover:underline">Templates</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-transparent hover:underline">Workshops</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-transparent hover:underline">Blog</a></li>
             </ul>
           </div>
           
@@ -45,16 +45,16 @@ const Footer = () => {
               <span className="text-purple-500 mr-2">👥</span> ABOUT
             </h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-primary hover:underline">The Team</a></li>
-              <li><a href="#" className="text-primary hover:underline">Reviews</a></li>
-              <li><a href="#" className="text-primary hover:underline">Pricing</a></li>
-              <li><a href="#" className="text-primary hover:underline">FAQs</a></li>
-              <li><a href="#" className="text-primary hover:underline">Work With Us</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-teal-500 to-orange-500 bg-clip-text text-transparent hover:underline">The Team</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-teal-500 to-orange-500 bg-clip-text text-transparent hover:underline">Reviews</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-teal-500 to-orange-500 bg-clip-text text-transparent hover:underline">Pricing</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-teal-500 to-orange-500 bg-clip-text text-transparent hover:underline">FAQs</a></li>
+              <li><a href="#" className="bg-gradient-to-r from-teal-500 to-orange-500 bg-clip-text text-transparent hover:underline">Work With Us</a></li>
             </ul>
           </div>
           
           <div>
-            <Button className="bg-primary hover:bg-primary/90 w-full mb-3 font-bold py-2 text-white">
+            <Button className="bg-gradient-to-r from-purple-500 to-teal-500 hover:from-purple-600 hover:to-teal-600 w-full mb-3 font-bold py-2 text-white">
               GET STARTED
             </Button>
             
@@ -62,11 +62,23 @@ const Footer = () => {
               LOG IN
             </Button>
             
-            <div className="flex gap-1 mb-4">
-              <a href="#" className="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-bold text-sm">f</a>
-              <a href="#" className="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-bold text-xs">yt</a>
-              <a href="#" className="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-bold text-xs">in</a>
-              <a href="#" className="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-bold text-sm">@</a>
+            <div className="flex gap-2 mb-4">
+              {/* Facebook */}
+              <a href="#" className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded flex items-center justify-center text-white font-bold text-lg hover:from-purple-600 hover:to-blue-600 transition-colors" title="Facebook">
+                f
+              </a>
+              {/* YouTube */}
+              <a href="#" className="w-10 h-10 bg-gradient-to-r from-blue-500 to-teal-500 rounded flex items-center justify-center text-white font-bold text-xs hover:from-blue-600 hover:to-teal-600 transition-colors" title="YouTube">
+                yt
+              </a>
+              {/* LinkedIn */}
+              <a href="#" className="w-10 h-10 bg-gradient-to-r from-teal-500 to-orange-500 rounded flex items-center justify-center text-white font-bold text-xs hover:from-teal-600 hover:to-orange-600 transition-colors" title="LinkedIn">
+                in
+              </a>
+              {/* Spotify */}
+              <a href="#" className="w-10 h-10 bg-gradient-to-r from-orange-500 to-purple-500 rounded flex items-center justify-center text-white font-bold text-lg hover:from-orange-600 hover:to-purple-600 transition-colors" title="Spotify">
+                ♪
+              </a>
             </div>
             
             <p className="text-sm text-white font-medium">perceptaire</p>
@@ -74,7 +86,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-6 border-t border-gray-700 text-xs text-gray-300">
-          <p>© All content copyright Think Digital Limited t/a Grad Coach 2025 · Use of our website, resources and services is subject to our <a href="#" className="text-primary underline">standard terms</a> and <a href="#" className="text-primary underline">privacy policy</a>.</p>
+          <p>© All content copyright Think Digital Limited t/a Grad Coach 2025 · Use of our website, resources and services is subject to our <a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent underline">standard terms</a> and <a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent underline">privacy policy</a>.</p>
           <p className="mt-1">Company Registration: 2904310 · US Trademark: 98175833 · UK Trademark: UK00003956375 · Tutors' Association ID: 55870609</p>
         </div>
       </div>

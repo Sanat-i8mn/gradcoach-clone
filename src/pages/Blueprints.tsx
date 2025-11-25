@@ -13,7 +13,7 @@ const Blueprints = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Finish your research faster with<br />
-            our <span className="text-primary">tried & trusted</span> Blueprints™
+            our <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">tried & trusted</span> Blueprints™
           </h1>
           <p className="text-lg mb-12">
             Step-by-step roadmaps proven by <strong>10,000+ successful students globally</strong>
@@ -25,22 +25,22 @@ const Blueprints = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="space-y-4">
-            <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
+            <Button className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
               <Search className="w-6 h-6" />
               FIND YOUR RESEARCH TOPIC
             </Button>
             
-            <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
+            <Button className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
               <FileText className="w-6 h-6" />
               WRITE YOUR PROPOSAL
             </Button>
             
-            <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
+            <Button className="bg-gradient-to-r from-teal-500 to-orange-500 hover:from-teal-600 hover:to-orange-600 text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
               <BookOpen className="w-6 h-6" />
               WRITE YOUR LITERATURE REVIEW
             </Button>
             
-            <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
+            <Button className="bg-gradient-to-r from-orange-500 to-purple-500 hover:from-orange-600 hover:to-purple-600 text-white font-bold py-6 px-8 text-lg w-full flex items-center justify-center gap-2">
               <FlaskConical className="w-6 h-6" />
               DESIGN YOUR METHODOLOGY
             </Button>

@@ -51,6 +51,12 @@ export default {
           orange: "hsl(var(--brand-orange))",
           "orange-hover": "hsl(var(--brand-orange-hover))",
         },
+        gradient: {
+          purple: "#8B5CF6",
+          blue: "#3B82F6",
+          teal: "#14B8A6",
+          orange: "#F97316",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

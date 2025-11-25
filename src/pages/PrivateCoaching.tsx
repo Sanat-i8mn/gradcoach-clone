@@ -16,12 +16,12 @@ const PrivateCoaching = () => {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Finish your research.<br />
-                <span className="text-primary">Get your life back.</span>
+                <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">Get your life back.</span>
               </h1>
               <p className="text-lg mb-6">
                 Hands-on Private Coaching for busy adult learners serious about finishing.
               </p>
-              <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-8 text-lg mb-6">
+              <Button className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 hover:from-purple-600 hover:via-blue-600 hover:to-teal-600 text-white font-bold py-6 px-8 text-lg mb-6">
                 BOOK MY FREE CONSULTATION
               </Button>
               <div className="flex items-center gap-4 mb-4">
@@ -46,7 +46,7 @@ const PrivateCoaching = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            A dissertation can be a <span className="text-primary">lonely journey</span>
+            A dissertation can be a <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">lonely journey</span>
           </h2>
           <div className="max-w-2xl mx-auto space-y-4 text-lg">
             <p>You're not getting <strong>meaningful support</strong> from your advisor.</p>
@@ -67,7 +67,7 @@ const PrivateCoaching = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                We've helped <span className="text-primary">10,000+ clients</span><br />
+                We've helped <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">10,000+ clients</span><br />
                 cross the finish line, faster.
               </h2>
               <p className="text-lg mb-6">
@@ -102,7 +102,7 @@ const PrivateCoaching = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Why <span className="text-primary">adult learners</span> choose Grad Coach.
+            Why <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">adult learners</span> choose Grad Coach.
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="border border-border rounded-lg p-8">
@@ -133,7 +133,7 @@ const PrivateCoaching = () => {
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Loved by <span className="text-primary">millions.</span>
+            Loved by <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">millions.</span>
           </h2>
           <p className="text-center mb-12">
             View 1:1 video interviews across the world via our <span className="text-primary">YouTube channel</span> or read over 1,000 reviews from learners.
@@ -170,26 +170,26 @@ const PrivateCoaching = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to <span className="text-primary">get unstuck?</span>
+            Ready to <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">get unstuck?</span>
           </h2>
           <p className="text-lg mb-12">You're just three steps away from getting on the fast track.</p>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-muted p-8 rounded-lg">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Step 1: Initial Chat</h3>
               <p>Schedule a free, no-obligation consultation for us to understand your unique situation and needs.</p>
             </div>
             <div className="bg-muted p-8 rounded-lg">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Gauge className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Step 2: Accelerate</h3>
               <p>Your dedicated Dissertation Coach will work with you to fast-track every step of the process.</p>
             </div>
             <div className="bg-muted p-8 rounded-lg">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-teal-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Calendar className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Step 3: Submit</h3>
@@ -215,7 +215,7 @@ const PrivateCoaching = () => {
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-            Still have <span className="text-primary">questions?</span>
+            Still have <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">questions?</span>
           </h2>
           <p className="text-center mb-12">
             Check out our FAQs below or <span className="text-primary">pop us an email</span>.

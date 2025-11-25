@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="p-8 md:p-12">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                Stop struggling<br />on <span className="text-primary">your own.</span>
+                Stop struggling<br />on <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">your own.</span>
               </h1>
               
               <p className="text-lg mb-6 text-foreground">
@@ -32,7 +32,7 @@ const HeroSection = () => {
                 </div>
               </div>
               
-              <Button className="w-full bg-primary hover:bg-brand-orange-hover text-primary-foreground font-bold py-6 text-lg">
+              <Button className="w-full bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 hover:from-purple-600 hover:via-blue-600 hover:to-teal-600 text-white font-bold py-6 text-lg">
                 BOOK MY FREE CONSULTATION 📞
               </Button>
               

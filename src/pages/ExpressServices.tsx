@@ -12,7 +12,7 @@ const ExpressServices = () => {
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            It's time to <span className="text-primary">work smarter.</span>
+            It's time to <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">work smarter.</span>
           </h1>
           <p className="text-lg mb-12">
             Let us take care of the grunt work while you <strong>focus on the things that matter</strong>.
@@ -26,46 +26,46 @@ const ExpressServices = () => {
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Qualitative Coding */}
             <div className="bg-muted rounded-lg p-8 text-center">
-              <Pencil className="w-16 h-16 text-primary mx-auto mb-6" />
+              <Pencil className="w-16 h-16 text-purple-500 mx-auto mb-6" />
               <h3 className="text-2xl font-bold mb-4">Qualitative Coding</h3>
               <p className="mb-6">
                 Our PhD-qualified specialists will systematically code your transcripts, saving you time.
               </p>
-              <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-3 px-8 mb-4 w-full">
+              <Button className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-3 px-8 mb-4 w-full">
                 GET A QUOTE
               </Button>
               <p className="text-sm">
-                Or <a href="#" className="text-primary underline">learn more about coding</a>
+                Or <a href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent underline">learn more about coding</a>
               </p>
             </div>
 
             {/* Interview Transcription */}
             <div className="bg-muted rounded-lg p-8 text-center">
-              <Keyboard className="w-16 h-16 text-primary mx-auto mb-6" />
+              <Keyboard className="w-16 h-16 text-blue-500 mx-auto mb-6" />
               <h3 className="text-2xl font-bold mb-4">Interview Transcription</h3>
               <p className="mb-6">
                 Our expert team will manually transcribe your recordings, ensuring 100% accuracy.
               </p>
-              <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-3 px-8 mb-4 w-full">
+              <Button className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 text-white font-bold py-3 px-8 mb-4 w-full">
                 GET A QUOTE
               </Button>
               <p className="text-sm">
-                Or <a href="#" className="text-primary underline">learn more about transcription</a>
+                Or <a href="#" className="bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-transparent underline">learn more about transcription</a>
               </p>
             </div>
 
             {/* Editing & Proofreading */}
             <div className="bg-muted rounded-lg p-8 text-center">
-              <FileEdit className="w-16 h-16 text-primary mx-auto mb-6" />
+              <FileEdit className="w-16 h-16 text-teal-500 mx-auto mb-6" />
               <h3 className="text-2xl font-bold mb-4">Editing & Proofreading</h3>
               <p className="mb-6">
                 Our seasoned editors will review your work for language, formatting and referencing.
               </p>
-              <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-3 px-8 mb-4 w-full">
+              <Button className="bg-gradient-to-r from-teal-500 to-orange-500 hover:from-teal-600 hover:to-orange-600 text-white font-bold py-3 px-8 mb-4 w-full">
                 GET A QUOTE
               </Button>
               <p className="text-sm">
-                Or <a href="#" className="text-primary underline">learn more about editing</a>
+                Or <a href="#" className="bg-gradient-to-r from-teal-500 to-orange-500 bg-clip-text text-transparent underline">learn more about editing</a>
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ const LonelyJourneySection = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-foreground">
-          Academic research can be a <span className="text-primary">lonely journey</span>
+          Academic research can be a <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">lonely journey</span>
         </h2>
         
         <div className="max-w-2xl mx-auto space-y-4 text-lg">
@@ -27,7 +27,7 @@ const LonelyJourneySection = () => {
         </div>
         
         <div className="mt-12">
-          <ChevronDown className="w-12 h-12 text-primary mx-auto animate-bounce" />
+          <ChevronDown className="w-12 h-12 text-purple-500 mx-auto animate-bounce" />
         </div>
       </div>
     </section>

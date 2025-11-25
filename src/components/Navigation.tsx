@@ -12,7 +12,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <span className="text-2xl font-bold">
-              GRAD<span className="text-primary">COACH</span>
+              GRAD<span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">COACH</span>
             </span>
             <span className="text-primary text-sm">®</span>
           </Link>
@@ -29,7 +29,7 @@ const Navigation = () => {
               ⚙️ BLUEPRINTS
             </Link>
             <Link to="/get-started">
-              <Button className="bg-primary hover:bg-brand-orange-hover text-primary-foreground font-semibold">
+              <Button className="bg-gradient-to-r from-purple-500 to-teal-500 hover:from-purple-600 hover:to-teal-600 text-white font-semibold">
                 GET STARTED 🚀
               </Button>
             </Link>
@@ -70,7 +70,7 @@ const Navigation = () => {
                 ⚙️ BLUEPRINTS
               </Link>
               <Link to="/get-started" onClick={() => setIsMenuOpen(false)}>
-                <Button className="bg-primary hover:bg-brand-orange-hover text-primary-foreground font-semibold w-full">
+                <Button className="bg-gradient-to-r from-purple-500 to-teal-500 hover:from-purple-600 hover:to-teal-600 text-white font-semibold w-full">
                   GET STARTED 🚀
                 </Button>
               </Link>
