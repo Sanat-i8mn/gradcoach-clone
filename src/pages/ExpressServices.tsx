@@ -2,10 +2,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Star, Pencil, Keyboard, FileEdit } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const ExpressServices = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Express Academic Services | Transcription, Coding & Editing Services</title>
+        <meta name="description" content="Professional academic express services including qualitative coding, interview transcription, and editing & proofreading. Expert PhD-qualified specialists deliver accurate, time-saving solutions for your research needs." />
+        <meta name="keywords" content="qualitative coding services, interview transcription, academic editing, proofreading services, research transcription, thesis editing, dissertation proofreading" />
+      </Helmet>
       <Navigation />
       
       {/* Hero Section */}

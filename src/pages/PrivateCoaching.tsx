@@ -3,10 +3,16 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Star, Phone, Calendar, Gauge, Lock, ChevronRight, Building2 } from "lucide-react";
 import heroImage from "@/assets/private-coaching.jpg";
+import { Helmet } from "react-helmet-async";
 
 const PrivateCoaching = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>1-on-1 Private Academic Coaching Services | Expert Research Guidance</title>
+        <meta name="description" content="Get personalized 1-on-1 academic coaching from PhD-qualified experts. Hands-on support for dissertations, thesis, and research projects. On-demand access, guaranteed results, and trusted by 10,000+ students worldwide." />
+        <meta name="keywords" content="private academic coaching, dissertation coach, thesis mentor, research guidance, PhD coaching, academic support services, personalized research help" />
+      </Helmet>
       <Navigation />
       
       {/* Hero Section */}
@@ -22,7 +28,7 @@ const PrivateCoaching = () => {
                 Hands-on Private Coaching for busy adult learners serious about finishing.
               </p>
               <Button className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 hover:from-purple-600 hover:via-blue-600 hover:to-teal-600 text-white font-bold py-6 px-8 text-lg mb-6">
-                BOOK MY FREE CONSULTATION
+                BOOK MY FREE SERVICE
               </Button>
               <div className="flex items-center gap-4 mb-4">
                 <img src="/placeholder.svg" alt="Coaches" className="w-32 h-8 object-cover rounded" />
@@ -77,7 +83,7 @@ const PrivateCoaching = () => {
                 Having a dissertation coach by your side means you'll avoid dead-ends, make the right decisions, focus on the things that matter – and finish your dissertation faster.
               </p>
               <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-8 text-lg">
-                BOOK MY INITIAL CONSULTATION
+                BOOK MY INITIAL SERVICE
               </Button>
               <div className="mt-6 flex items-center gap-2">
                 <span className="font-bold">Excellent</span>
@@ -179,7 +185,7 @@ const PrivateCoaching = () => {
                 <Phone className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Step 1: Initial Chat</h3>
-              <p>Schedule a free, no-obligation consultation for us to understand your unique situation and needs.</p>
+              <p>Schedule a free, no-obligation service for us to understand your unique situation and needs.</p>
             </div>
             <div className="bg-muted p-8 rounded-lg">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -197,7 +203,7 @@ const PrivateCoaching = () => {
             </div>
           </div>
           <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-12 text-lg">
-            BOOK MY FREE CONSULTATION
+            BOOK MY FREE SERVICE
           </Button>
           <div className="mt-8 flex items-center justify-center gap-2">
             <span className="font-bold">Excellent</span>
@@ -222,7 +228,7 @@ const PrivateCoaching = () => {
           </p>
           <div className="space-y-4">
             {[
-              "Is the consultation really free?",
+              "Is the service really free?",
               "Is this service allowed by universities?",
               "Will my work be treated confidentially?",
               "How much does Private Coaching cost?",
@@ -237,7 +243,7 @@ const PrivateCoaching = () => {
           </div>
           <div className="mt-8 text-center">
             <Button className="bg-primary hover:bg-brand-orange-hover text-white font-bold py-6 px-12 text-lg w-full">
-              BOOK MY INITIAL CONSULTATION
+              BOOK MY INITIAL SERVICE
             </Button>
           </div>
         </div>

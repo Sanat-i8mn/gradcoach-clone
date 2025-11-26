@@ -3,12 +3,18 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Phone, Laptop, BookOpen } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const GetStarted = () => {
   const [selected, setSelected] = useState<string>("");
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Get Started with Academic Research Services | Choose Your Path</title>
+        <meta name="description" content="Start your academic research journey with GradCoach. Choose from private coaching, express services, or research blueprints. Get personalized support tailored to your research needs and goals." />
+        <meta name="keywords" content="academic research services, get started research help, dissertation services, thesis support, research coaching options, academic assistance" />
+      </Helmet>
       <Navigation />
       
       {/* Main Section */}

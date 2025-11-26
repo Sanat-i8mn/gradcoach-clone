@@ -20,7 +20,7 @@ const GetUnstuckSection = () => {
               <MessageCircle className="w-16 h-16 text-purple-500 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Step 1: Initial Chat</h3>
               <p className="text-muted-foreground">
-                Schedule a free, no-obligation consultation for us to understand your unique situation and needs.
+                Schedule a free, no-obligation service for us to understand your unique situation and needs.
               </p>
             </CardContent>
           </Card>
@@ -48,7 +48,7 @@ const GetUnstuckSection = () => {
         
         <div className="text-center mb-12">
           <Button className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 hover:from-purple-600 hover:via-blue-600 hover:to-teal-600 text-white font-bold py-6 px-12 text-lg">
-            BOOK MY FREE CONSULTATION
+            BOOK MY FREE SERVICE
           </Button>
         </div>
         

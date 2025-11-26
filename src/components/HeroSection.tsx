@@ -33,7 +33,7 @@ const HeroSection = () => {
               </div>
               
               <Button className="w-full bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 hover:from-purple-600 hover:via-blue-600 hover:to-teal-600 text-white font-bold py-6 text-lg">
-                BOOK MY FREE CONSULTATION 📞
+                BOOK MY FREE SERVICE 📞
               </Button>
               
               <div className="mt-6 flex items-center justify-center gap-2 text-sm">

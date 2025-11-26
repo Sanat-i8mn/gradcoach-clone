@@ -2,10 +2,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Star, Search, FileText, BookOpen, FlaskConical } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Blueprints = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Research Blueprints™ | Step-by-Step Academic Research Guides</title>
+        <meta name="description" content="Proven research blueprints and step-by-step roadmaps for academic success. Learn how to find your research topic, write proposals, literature reviews, and design methodology. Trusted by 10,000+ successful students globally." />
+        <meta name="keywords" content="research blueprints, research methodology guide, dissertation roadmap, thesis planning, literature review guide, research proposal template, academic research courses" />
+      </Helmet>
       <Navigation />
       
       {/* Hero Section */}
